@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Productivity Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>📘 Student Productivity Tracker</h1>
+    <p class="subtitle">Track your daily study progress efficiently</p>
+
+    <div class="card">
+        <h2>Add Study Session</h2>
+
+        <label>Subject</label>
+        <input type="text" id="subject" placeholder="Eg: DSA, Java, Math">
+
+        <label>Duration (minutes)</label>
+        <input type="number" id="duration" placeholder="Eg: 60">
+
+        <button id="addBtn">Add Session</button>
+    </div>
+
+    <div class="card">
+        <h2>📊 Today’s Summary</h2>
+        
+
+        <p id="totalTime">Total Study Time: 0 minutes</p>
+
+        <ul id="subjectList"></ul>
+        <canvas id="studyChart"></canvas>
+    </div>
+    <div class="card">
+    <h2>📅 Weekly Insights</h2>
+    <p id="weeklyTime">Total This Week: 0 minutes</p>
+    <p id="topSubject">Most Studied Subject: -</p>
+    <p id="consistency">Consistency: 0%</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
