@@ -1,8 +1,13 @@
 # Student Productivity Tracker 📊
 
-A simple and powerful **open-source web app** to help students track tasks, monitor weekly productivity, and improve time management through visual insights.
+[![GitHub issues](https://img.shields.io/github/issues/your-username/student-productivity-tracker)](https://github.com/your-username/student-productivity-tracker/issues) 
+[![GitHub forks](https://img.shields.io/github/forks/your-username/student-productivity-tracker)](https://github.com/your-username/student-productivity-tracker/network) 
+[![GitHub stars](https://img.shields.io/github/stars/your-username/student-productivity-tracker)](https://github.com/your-username/student-productivity-tracker/stargazers)
+[![License](https://img.shields.io/github/license/your-username/student-productivity-tracker)](https://github.com/your-username/student-productivity-tracker/blob/main/LICENSE)
 
-This project is beginner-friendly and ideal for learning **JavaScript, Local Storage, and Chart.js** by building a real-world tool.
+A simple and **open-source web app** to help students **track tasks, monitor weekly productivity**, and improve time management through visual insights.
+
+**Live Demo:** 🌐 [Click Here](https://your-username.github.io/student-productivity-tracker/)
 
 ---
 
@@ -24,4 +29,3 @@ This project is beginner-friendly and ideal for learning **JavaScript, Local Sto
 ---
 
 
-![Weekly Insights](screenshots/insights.png)
